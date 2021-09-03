@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFEB3B</color>
+    <color name="purple_500">#FFC107</color>
+    <color name="purple_700">#CCFF9800</color>
+    <color name="yellowmain">#FFC107</color>
+    <color name="teal_200">#8BC34A</color>
+    <color name="teal_700">#009688</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tenderos_primary">#F54359</color>
+    <color name="tenderos_primary_dark">#F87F8E</color>
+    <color name="tenderos_primary_light">#F87F8E</color>
+    <color name="tenderos_secondary">#F54359</color>
+    <color name="tenderos_secondary_light">#F87F8E</color>
+    <color name="tenderos_secondary_dark">#932634</color>
+    <color name="maincolor">#441c63</color>
+    <color name="maincolor80">#66441C63</color>
+
+    80
+    <color name="tenderos_accent">#FF0266</color>
+
+    <color name="tenderos_primary_disable">#2839A935</color>
+    <color name="tenderos_secondary_disable">#28056CA4</color>
+    <color name="tenderos_red">#E8464C</color>
+
+    <color name="tenderos_background" >#F7F7F7</color>
+    <color name="tenderos_primary_textcolor" >#385E67</color>
+
+    <!-- Default pallette colors -->
+    <color name="default_white">#FFFFFF</color>
+    <color name="default_background">#B7B7B7</color>
+    <color name="default_black">#0F0F0F</color>
+    <color name="default_lightblack">#404040</color>
+    <color name="default_grey">#707070</color>
+    <color name="default_darkgrey">#5C5C5C</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/commentFragment"
+        android:name="com.slabcode.agutierrezt.example2.ui.fragments.CommentFragment"
+        android:label="@string/comment_label"
+        tools:layout="@layout/fragment_comment" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.slabcode.agutierrezt.example2.ui.fragments.ProductFragment"
+        android:label="@string/product_label"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.slabcode.agutierrezt.example2.ui.fragments.HomeFragment"
+        android:label="@string/home_label"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.slabcode.agutierrezt.example2.ui.fragments.ProfileFragment"
+        android:label="@string/profile_label"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.slabcode.agutierrezt.example2.ui.fragments.ProductDetailFragment"
+        android:label="@string/product_detail_label"
+        tools:layout="@layout/fragment_product_detail" />
+</navigation>

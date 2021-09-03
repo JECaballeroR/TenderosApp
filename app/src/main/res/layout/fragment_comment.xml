@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/comment_refresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.CommentFragment"
+        android:layout_marginHorizontal="@dimen/default_margin">
+
+        <TextView
+            android:textColor="@color/yellowmain"
+
+            android:id="@+id/comment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/default_margin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="@string/comment_label"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_size"
+            android:fontFamily="@font/rubik_bold"
+            android:textAllCaps="true"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/comment_recycler"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/small_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/comment_title"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/item_comment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.button.MaterialButton
+
+        app:backgroundTint="@color/tenderos_secondary"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/promo_backbutton"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:textAllCaps="false"
+        android:layout_gravity="bottom"/>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

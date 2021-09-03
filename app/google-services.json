@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186357300335",
+    "project_id": "example2-mintic",
+    "storage_bucket": "example2-mintic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186357300335:android:958d59be7190c9dd7da19a",
+        "android_client_info": {
+          "package_name": "com.slabcode.agutierrezt.example2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186357300335-mvm1scdhcm3b24v84e3pvd8cqv27jf13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxPhkTec4Jcvzvusd6TQfhP0knMoxSQ84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186357300335-mvm1scdhcm3b24v84e3pvd8cqv27jf13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

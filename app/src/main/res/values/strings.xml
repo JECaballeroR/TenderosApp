@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TenderApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login_title">Inicio de sesión</string>
+    <string name="login_button">Iniciar</string>
+    <string name="email_label">Correo electronico</string>
+    <string name="password_label">Contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to">Dirigido a</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="home_label">Home</string>
+    <string name="comment_label">Comentarios</string>
+    <string name="product_label">Mis productos</string>
+    <string name="product_detail_label">Detalles del producto</string>
+    <string name="profile_label">Mi perfil</string>
+    <string name="sign_up_label">¿No tienes cuenta? Registrate</string>
+    <string name="name_label">Nombres</string>
+    <string name="sign_up_text_label">Registrate</string>
+    <string name="log_out_label">Cerrar sesión</string>
+</resources>
